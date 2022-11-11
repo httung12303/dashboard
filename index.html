@@ -1,47 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <div class="first-row">
-                <div class="searchbar">
-                    <img src="img/magnify.png" alt="" class="search-icon">
-                    <input type="text" placeholder="Search...">
-                </div>
-                <img src="" alt="" class="notification">
-                <img src="" alt="" class="avatar">
-                <div class="user">
-
-                </div>
+      <header>
+        <div class="first-row">
+          <div class="searchbar">
+            <img src="img/magnify.svg" alt="" class="search-icon" />
+            <input type="text" placeholder="Search..." />
+          </div>
+          <img src="img/bell-outline.svg" alt="" class="notification-img" />
+          <div class="user">
+            <img src="img/avatar-svgrepo-com.svg" alt="" class="avatar" />
+            Baby Boomer
+          </div>
+        </div>
+        <div class="second-row">
+          <div class="greeting">
+            <img src="img/avatar-svgrepo-com.svg" alt="" class="avatar" />
+            <div class="text">
+              <p>Hi there,</p>
+              <p>Baby Boomer (@boomer)</p>
             </div>
-            <div class="second-row">
-                <button class="new"></button>
-                <button class="upload"></button>
+          </div>
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </header>
+      <div class="sidebar">
+        <div class="logo">
+          <img src="img/view-dashboard.svg" alt="" class="logo-img" />Dashboard
+        </div>
+        <div class="nav-item">
+          <img src="img/home.svg" alt="" class="nav-logo" />Home
+        </div>
+        <div class="nav-item">
+          <img src="img/account.svg" alt="" class="nav-logo" />Profile
+        </div>
+        <div class="nav-item">
+          <img src="img/message.svg" alt="" class="nav-logo" />Messages
+        </div>
+        <div class="nav-item">
+          <img src="img/history.svg" alt="" class="nav-logo" />History
+        </div>
+        <div class="nav-item">
+          <img src="img/list-box-outline.svg" alt="" class="nav-logo" />Tasks
+        </div>
+        <div class="nav-item">
+          <img src="img/account-group.svg" alt="" class="nav-logo" />Communities
+        </div>
+        <div class="nav-item">
+          <img src="img/cog.svg" alt="" class="nav-logo" />Settings
+        </div>
+        <div class="nav-item">
+          <img src="img/help-circle.svg" alt="" class="nav-logo" />Support
+        </div>
+        <div class="nav-item">
+          <img src="img/security.svg" alt="" class="nav-logo" />Privacy
+        </div>
+      </div>
+      <div class="content">
+        <div class="main-content">
+          <h1>Your projects</h1>
+          <div class="main-content-grid">
+            <div class="card">
+              <h2>Calculator</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                facilis culpa veniam excepturi velit rem! Quibusdam, eius.
+                Libero, quasi autem?
+              </p>
+              <div class="button-container">
+                <button class="favorite"></button>
                 <button class="share"></button>
+                <button class="comment"></button>
+              </div>
             </div>
-        </header>
-        <div class="sidebar">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="card">
+              <h2>Sign up form</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+                eveniet amet facilis praesentium recusandae natus voluptatum
+                quasi ea aperiam excepturi?
+              </p>
+              <div class="button-container">
+                <button class="favorite"></button>
+                <button class="share"></button>
+                <button class="comment"></button>
+              </div>
+            </div>
+            <div class="card">
+              <h2>Etch-A-Sketch</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                facilis culpa veniam excepturi velit rem! Quibusdam, eius.
+                Libero, quasi autem?
+              </p>
+              <div class="button-container">
+                <button class="favorite"></button>
+                <button class="share"></button>
+                <button class="comment"></button>
+              </div>
+            </div>
+            <div class="card">
+              <h2>Rock Paper Scissors</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                facilis culpa veniam excepturi velit rem! Quibusdam, eius.
+                Libero, quasi autem?
+              </p>
+              <div class="button-container">
+                <button class="favorite"></button>
+                <button class="share"></button>
+                <button class="comment"></button>
+              </div>
+            </div>
+            <div class="card">
+              <h2>Landing Page</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                facilis culpa veniam excepturi velit rem! Quibusdam, eius.
+                Libero, quasi autem?
+              </p>
+              <div class="button-container">
+                <button class="favorite"></button>
+                <button class="share"></button>
+                <button class="comment"></button>
+              </div>
+            </div>
+            <div class="card">
+              <h2>Odin Recipes</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                facilis culpa veniam excepturi velit rem! Quibusdam, eius.
+                Libero, quasi autem?
+              </p>
+              <div class="button-container">
+                <button class="favorite"></button>
+                <button class="share"></button>
+                <button class="comment"></button>
+              </div>
+            </div>
+            <div class="card">
+              <h2>#1</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                facilis culpa veniam excepturi velit rem! Quibusdam, eius.
+                Libero, quasi autem?
+              </p>
+              <div class="button-container">
+                <button class="favorite"></button>
+                <button class="share"></button>
+                <button class="comment"></button>
+              </div>
+            </div>
+            <div class="card">
+              <h2>#2</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                facilis culpa veniam excepturi velit rem! Quibusdam, eius.
+                Libero, quasi autem?
+              </p>
+              <div class="button-container">
+                <button class="favorite"></button>
+                <button class="share"></button>
+                <button class="comment"></button>
+              </div>
+            </div>
+            <div class="card">
+              <h2>#3</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                facilis culpa veniam excepturi velit rem! Quibusdam, eius.
+                Libero, quasi autem?
+              </p>
+              <div class="button-container">
+                <button class="favorite"></button>
+                <button class="share"></button>
+                <button class="comment"></button>
+              </div>
+            </div>
+            <div class="card">
+              <h2>A really long title to check if text-overflow works</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                facilis culpa veniam excepturi velit rem! Quibusdam, eius.
+                Libero, quasi autem?
+              </p>
+              <div class="button-container">
+                <button class="favorite"></button>
+                <button class="share"></button>
+                <button class="comment"></button>
+              </div>
+            </div>
+            <div class="card">
+              <h2>#4</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                facilis culpa veniam excepturi velit rem! Quibusdam, eius.
+                Libero, quasi autem?
+              </p>
+              <div class="button-container">
+                <button class="favorite"></button>
+                <button class="share"></button>
+                <button class="comment"></button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="content">
+        <div class="side-content">
+          <announcements>
+              <h1>Announcements</h1>
+              <div class="announcement-grid">
+                <div class="announcement">
+                  <h2>Maintainance</h2>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+                    reiciendis aliquam ipsum esse est ipsam aut enim nesciunt
+                    voluptas earum!
+                  </p>
+                </div>
+                <div class="announcement">
+                  <h2>Update</h2>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+                    reiciendis aliquam ipsum esse est ipsam aut enim nesciunt
+                    voluptas earum!
+                  </p>
+                </div>
+                <div class="announcement">
+                  <h2>Policy Updated</h2>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+                    reiciendis aliquam ipsum esse est ipsam aut enim nesciunt
+                    voluptas earum!
+                  </p>
+                </div>
+              </div>
+          </announcements>
+          <div class="trending">
+            <h1>Trending</h1>
+            <div class="trending-grid">
+              <div class="trending-post">
+                <img src="img/avatar-svgrepo-com2.svg" alt="" />
+                <h2 class="name">@blackadam</h2>
+                <p class="brief">Super Cool App</p>
+              </div>
+              <div class="trending-post">
+                <img src="img/avatar-svgrepo-com3.svg" alt="" />
+                <h2 class="name">@aladin</h2>
+                <p class="brief">Some Random Project</p>
+              </div>
+              <div class="trending-post">
+                <img src="img/avatar-svgrepo-com4.svg" alt="" />
+                <h2 class="name">@karen</h2>
+                <p class="brief">New World Record</p>
+              </div>
 
+              <div class="trending-post">
+                <img src="img/avatar-svgrepo-com5.svg" alt="" />
+                <h2 class="name">@laura</h2>
+                <p class="brief">You Might Not Know</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
